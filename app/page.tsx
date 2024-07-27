@@ -17,11 +17,10 @@ export default function Page() {
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
         <div className={styles.shape}/>
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
+            <strong>Welcome to Aaran.</strong> This is the initial pages{' '}
+            <a href="https://acme-jkgu-git-main-mubarik-mohamouds-projects.vercel.app" className="text-blue-500">
+              available here
             </a>
-            , brought to you by Vercel.
           </p>
           <Link
             href="/login"
@@ -33,14 +32,14 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <Image
-          src="/hero-desktop.png"
+          src="/aaran.png"
           width={1000}
           height={760}
           className="hidden md:block"
           alt="Screenshots of the dashboard project showing desktop version"
           />
            <Image
-          src="/hero-mobile.png"
+          src="/aaran-mobile.png"
           width={560}
           height={620}
           className="block sm:hidden"
